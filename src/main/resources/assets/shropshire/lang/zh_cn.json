@@ -1,0 +1,16 @@
+{
+  "item.shropshire.test_item": "测试物品",
+  "item.shropshire.fabric_item.tooltip": "Tooltip.... %s.....",
+  "itemGroup.shropshire.other": "物品",
+  "itemGroup.shropshire.general": "没想好干嘛的",
+  "block.shropshire.luxurious_wood_furniture": "豪华木家具",
+  "block.shropshire.confidential_cargo": "机密货物",
+  "block.shropshire.dressing_table": "梳妆台",
+  "block.shropshire.italian_dish_kit": "意式餐具",
+  "block.shropshire.railgun": "神秘武器",
+  "effect.shropshire.loot": "第一舰队的加护",
+  "item.minecraft.potion.effect.loot": "不详之兆药水",
+  "item.minecraft.splash_potion.effect.loot": "喷溅型不祥之兆药水",
+  "item.minecraft.lingering_potion.effect.loot": "滞留型不祥之兆药水"
+}
+

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "all": "shropshire:item/test_item"
+  }
+}
+

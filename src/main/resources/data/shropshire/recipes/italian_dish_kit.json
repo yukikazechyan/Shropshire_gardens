@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:clay_ball"
+    },
+
+    "B": {
+      "item": "minecraft:tcocoa_beans"
+    }
+  },
+  "result": {
+    "item": "shropshire:italian_dish_kit",
+    "count": 1
+  }
+}

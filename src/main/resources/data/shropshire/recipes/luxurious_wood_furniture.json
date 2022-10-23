@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "BBB",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "result": {
+    "item": "shropshire:luxurious_wood_furniture",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shropshire",
+  "version": "221023",
+
+  "name": "Shropshire_gardens",
+  "description": "This is a MiST mod",
+  "authors": [
+    "HMS_Indomitable"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/shropshire/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.shropshire.shropshire"
+    ]
+  },
+  "mixins": [
+    "shropshire.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
