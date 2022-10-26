@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "shropshire:block/rice/rice_crop5"
+  }
+}
+

@@ -11,6 +11,9 @@
   "effect.shropshire.loot": "第一舰队的加护",
   "item.minecraft.potion.effect.loot": "不详之兆药水",
   "item.minecraft.splash_potion.effect.loot": "喷溅型不祥之兆药水",
-  "item.minecraft.lingering_potion.effect.loot": "滞留型不祥之兆药水"
+  "item.minecraft.lingering_potion.effect.loot": "滞留型不祥之兆药水",
+  "item.shropshire.test_food": "测试食物",
+  "item.shropshire.rice": "水稻",
+  "item.shropshire.rice_seeds": "水稻种子"
 }
 

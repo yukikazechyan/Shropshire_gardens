@@ -32,8 +32,8 @@ public class CustomItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        //tooltip.add(Text.literal("123"));//此处为测试物品注释，但失败了
-        //tooltip.add(Text.literal("321）"));
+        tooltip.add(Text.literal("123"));//此处为测试物品注释，但失败了
+        tooltip.add(Text.literal("321）"));
         tooltip.add(Text.translatable("item.shropshire.fabric_item.tooltip", "Value"));
     }
 

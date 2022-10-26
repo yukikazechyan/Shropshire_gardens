@@ -7,13 +7,16 @@ import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
+import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
@@ -30,9 +33,9 @@ public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos
     return VoxelShapes.cuboid(1f, 1f, 1f, 1f, 1f, 1f);
 }
 
-    /*public class PolishedAndesiteSideBlock extends HorizontalFacingBlock {//关于朝向的喵
+    public class VerticalSlabBlock extends HorizontalFacingBlock {//关于朝向的喵
 
-        public PolishedAndesiteSideBlock(Settings settings) {
+        public VerticalSlabBlock(Settings settings) {
             super(settings);
             setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
         }
@@ -42,8 +45,8 @@ public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos
             stateManager.add(Properties.HORIZONTAL_FACING);
         }
 
-
-        public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, EntityContext ctx) {
+        @Override
+        public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx) {
             Direction dir = state.get(FACING);
             switch(dir) {
                 case NORTH:
@@ -59,11 +62,12 @@ public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos
             }
         }
 
+        @Override
         public BlockState getPlacementState(ItemPlacementContext ctx) {
-            return (BlockState)this.getDefaultState().with(FACING, ctx.getPlayerFacing());
+            return (BlockState)this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing().getOpposite());
         }
 
-    }*/
+    }
 
     /*@Override//源小姐测试用的，此处大意为右击方块时反馈Hello, world!文本
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
@@ -74,4 +78,8 @@ public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos
         return ActionResult.SUCCESS;
 
     }*/
+
+
+
+
 }
