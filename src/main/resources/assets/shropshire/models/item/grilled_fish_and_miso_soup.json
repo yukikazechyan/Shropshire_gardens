@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "shropshire:item/grilled_fish_and_miso_soup"
+  }
+}
