@@ -27,14 +27,15 @@ public class BrewingMixin {
 
 
     //@Inject(at = @At("HEAD"), method = "onInitialize")
-   @Inject(method = "registerDefaults", at = @At("HEAD"))//注入到这个方法的开头，但这个方法我创建了啊喵？
+   @Inject(method = "registerDefaults", at = @At("HEAD"))//注入到这个方法的开头，
     private static  void registerDefaults(CallbackInfo ci){//自定义酿造
        // BrewingMixin.registerPotionRecipe(Potions.AWKWARD, shropshire.ABC,Potions.STRONG_HEALING);//粗制药水加上ABC这个物品酿造STR什么这个
         BrewingMixin.registerPotionRecipe(Potions.AWKWARD, Items.WHITE_BANNER, shropshire.LOOT);
-        //BrewingMixin.registerPotionRecipe(Potions.AWKWARD, Items.BLACK_BANNER, shropshire.LOOT);
+        BrewingMixin.registerPotionRecipe(Potions.AWKWARD, Items.WHEAT_SEEDS, shropshire.OIL);
+       BrewingMixin.registerPotionRecipe(Potions.AWKWARD, shropshire.SOYBEAN, shropshire.SOY_MILK);
 
-        // BrewingMixin.onInitialize(Potions.AWKWARD, ominous_banner,Potions.STRONG_HEALING);
 
-    }
+
+   }
 
 }
