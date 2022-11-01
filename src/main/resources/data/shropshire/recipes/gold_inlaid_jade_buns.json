@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:egg"
+    },
+    "B": {
+      "item": "minecraft:porkchop"
+    },
+    "C": {
+      "item": "shropshire:salt"
+    },
+    "D": {
+      "item": "shropshire:alcohol"
+    },
+    "E": {
+      "item": "shropshire:oil"
+    },
+    "F": {
+      "item": "shropshire:flour"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:gold_inlaid_jade_buns",
+    "count": 1
+  }
+}

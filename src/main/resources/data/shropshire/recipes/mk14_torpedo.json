@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:gunpowder"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:mk14_torpedo",
+    "count": 1
+  }
+}

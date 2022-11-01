@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "   ",
+    "BCC"
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:bread"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "C": {
+      "item": "shropshire:lentils"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:rye_bread_lentil_soup",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " CD",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "B": {
+      "item": "shropshire:flour"
+    },
+    "C": {
+      "tag": "minecraft:dye"
+    },
+    "D": {
+      "item": "minecraft:egg"
+    },
+
+  },
+  "result": {
+    "item": "shropshire:macaron",
+    "count": 1
+  }
+}

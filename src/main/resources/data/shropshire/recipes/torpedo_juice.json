@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:mk14_torpedo"
+    },
+    "B": {
+      "item": "shropshire:pineapple"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:torpedo_juice",
+    "count": 1
+  }
+}

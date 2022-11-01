@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:rice"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:sticky_rice",
+    "count": 1
+  }
+}

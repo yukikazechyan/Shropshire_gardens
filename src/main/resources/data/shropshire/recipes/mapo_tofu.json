@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAB",
+    "CDE",
+    "F  "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:tofu"
+    },
+    "B": {
+      "item": "shropshire:minced_meat"
+    },
+    "C": {
+      "item": "shropshire:salt"
+    },
+    "D": {
+      "item": "shropshire:blaze_powder"
+    },
+    "E": {
+      "item": "shropshire:soy_sauce"
+    },
+    "F": {
+      "item": "shropshire:sugar"
+    }
+  },
+  "result": {
+    "item": "shropshire:mapo_tofu",
+    "count": 1
+  }
+}

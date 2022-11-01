@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dried_kelp"
+    },
+    "B": {
+      "item": "shropshire:plaster"
+    },
+    "C": {
+      "item": "shropshire:soy_milk"
+    },
+    "D": {
+      "item": "shropshire:salt"
+    },
+
+    "E": {
+      "item": "minecraft:bowl"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:salty_tofu_brain",
+    "count": 1
+  }
+}

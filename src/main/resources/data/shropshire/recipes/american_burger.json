@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DA ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:bread"
+    },
+    "B": {
+      "item": "minecraft:cooked_beef"
+    },
+    "C": {
+      "item": "shropshire:lettuce"
+    },
+    "D": {
+      "item": "shropshire:cabbage"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:american_burger",
+    "count": 1
+  }
+}

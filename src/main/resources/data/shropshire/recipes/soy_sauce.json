@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:soy_milk"
+    },
+    "B": {
+      "item": "shropshire:salt"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:soy_sauce",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GGH"
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:butter"
+    },
+    "B": {
+      "item": "shropshire:shrimp"
+    },
+    "C": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "D": {
+      "item": "shropshire:cheese"
+    },
+    "E": {
+      "item": "shropshire:soy_sauce"
+    },
+    "F": {
+      "item": "minecraft:egg"
+    },
+    "G": {
+      "item": "shropshire:cod"
+    },
+    "H": {
+      "item": "shropshire:flour"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:looking_up_at_the_stars",
+    "count": 1
+  }
+}

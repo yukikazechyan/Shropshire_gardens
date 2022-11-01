@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "shropshire:test_block"
+        }
+      ],
+      "conditions": [
+        {
+          "conditions": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

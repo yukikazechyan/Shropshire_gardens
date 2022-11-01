@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    "EFG"
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:cheese"
+    },
+    "B": {
+      "item": "shropshire:onion"
+    },
+    "C": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "D": {
+      "item": "minecraft:blaze_powder"
+    },
+    "E": {
+      "item": "shropshire:flour"
+    },
+    "F": {
+      "item": "shropshire:sugar"
+    },
+    "G": {
+      "item": "shropshire:oil"
+    }
+  },
+  "result": {
+    "item": "shropshire:salami_pizza",
+    "count": 1
+  }
+}

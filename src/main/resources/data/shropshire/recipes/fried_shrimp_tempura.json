@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "D  ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:shrimp"
+    },
+    "B": {
+      "item": "shropshire:flour"
+    },
+    "C": {
+      "item": "minecraft:water_bucket"
+    },
+    "D": {
+      "item": "shropshire:oil"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:fried_shrimp_tempura",
+    "count": 1
+  }
+}

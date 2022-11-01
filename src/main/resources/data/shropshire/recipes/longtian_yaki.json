@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DE ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:chicken"
+    },
+    "B": {
+      "item": "shropshire:oil"
+    },
+    "C": {
+      "item": "shropshire:ginger"
+    },
+    "D": {
+      "item": "shropshire:soy_sauce"
+    },
+    "E": {
+      "item": "shropshire:starch"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:longtian_yaki",
+    "count": 1
+  }
+}

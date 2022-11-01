@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "BAC",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:salmon"
+    },
+    "B": {
+      "item": "shropshire:dried_kelp"
+    },
+    "C": {
+      "item": "shropshire:salt"
+    },
+    "D": {
+      "item": "shropshire:bowl"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:grilled_fish_and_miso_soup",
+    "count": 1
+  }
+}

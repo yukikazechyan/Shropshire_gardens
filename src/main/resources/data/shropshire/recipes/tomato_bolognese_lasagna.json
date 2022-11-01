@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "D  ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:flour"
+    },
+    "B": {
+      "item": "shropshire:tomato"
+    },
+    "C": {
+      "item": "shropshire:minced_meat"
+    },
+    "D": {
+      "item": "shropshire:onion"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:tomato_bolognese_lasagna",
+    "count": 1
+  }
+}

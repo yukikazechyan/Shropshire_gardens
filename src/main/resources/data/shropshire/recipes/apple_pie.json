@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABC",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:porkchop"
+    },
+    "B": {
+      "item": "shropshire:flour"
+    },
+    "C": {
+      "item": "minecraft:apple"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:apple_pie",
+    "count": 1
+  }
+}

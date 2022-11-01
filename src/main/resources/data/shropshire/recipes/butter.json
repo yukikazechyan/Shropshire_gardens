@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " AB",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ice"
+    },
+    "B": {
+      "item": "shropshire:oil"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:butter",
+    "count": 1
+  }
+}

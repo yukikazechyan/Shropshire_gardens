@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "D  ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:cod"
+    },
+    "B": {
+      "item": "shropshire:flour"
+    },
+    "C": {
+      "item": "shropshire:oil"
+    },
+    "D": {
+      "item": "minecraft:potato"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:fish_and_chips",
+    "count": 1
+  }
+}

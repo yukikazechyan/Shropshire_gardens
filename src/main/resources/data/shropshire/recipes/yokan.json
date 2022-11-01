@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:red_beans"
+    },
+    "B": {
+      "item": "shropshire:flour"
+    },
+    "C": {
+      "item": "minecraft:water_bucket"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:yokan",
+    "count": 1
+  }
+}

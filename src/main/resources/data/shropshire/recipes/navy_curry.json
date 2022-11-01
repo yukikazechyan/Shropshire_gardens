@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "D  ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:curry"
+    },
+    "B": {
+      "item": "shropshire:carrot"
+    },
+    "C": {
+      "item": "minecraft:potato"
+    },
+    "D": {
+      "item": "shropshire:rice"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:navy_curry",
+    "count": 1
+  }
+}

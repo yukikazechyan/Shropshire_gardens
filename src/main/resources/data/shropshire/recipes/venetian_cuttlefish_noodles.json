@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BC ",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:onion"
+    },
+    "B": {
+      "item": "minecraft:ink_sac"
+    },
+    "C": {
+      "item": "shropshire:flour"
+    },
+    "D": {
+      "item": "minecraft:bowl"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:venetian_cuttlefish_noodles",
+    "count": 1
+  }
+}

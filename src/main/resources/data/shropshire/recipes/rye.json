@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " AB",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wheat"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:rye",
+    "count": 1
+  }
+}

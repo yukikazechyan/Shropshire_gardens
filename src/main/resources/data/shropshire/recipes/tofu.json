@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABA",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:soybean"
+    },
+    "B": {
+      "item": "shropshire:plaster"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:tofu",
+    "count": 1
+  }
+}

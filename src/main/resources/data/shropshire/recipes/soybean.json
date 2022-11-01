@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:cocoa_beans"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:soybean",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blaze_powder"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:curry",
+    "count": 1
+  }
+}

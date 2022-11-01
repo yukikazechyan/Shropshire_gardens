@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:sticky_rice"
+    },
+    "B": {
+      "item": "shropshire:sesame"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:sweet_dumpling",
+    "count": 1
+  }
+}

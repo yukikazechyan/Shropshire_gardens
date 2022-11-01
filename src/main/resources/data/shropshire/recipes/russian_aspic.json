@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:water_bucket"
+    },
+    "B": {
+      "item": "minecraft:chicken"
+    },
+    "C": {
+      "item": "minecraft:porkchop"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:russian_aspic",
+    "count": 1
+  }
+}

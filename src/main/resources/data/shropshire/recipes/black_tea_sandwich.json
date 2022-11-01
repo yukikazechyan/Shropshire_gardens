@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A B",
+    " C ",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:black_tea"
+    },
+    "B": {
+      "item": "shropshire:toast"
+    },
+    "C": {
+      "item": "minecraft:egg"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:black_tea_sandwich",
+    "count": 1
+  }
+}

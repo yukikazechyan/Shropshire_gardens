@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:stonecutter",
+  "pattern": [
+    "A"
+
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:gravel"
+    },
+
+  },
+  "result": {
+    "item": "shropshire:american_burger",
+    "count": 1
+  }
+}

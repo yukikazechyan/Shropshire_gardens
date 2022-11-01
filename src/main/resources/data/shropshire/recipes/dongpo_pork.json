@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ABA",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "B": {
+      "item": "minecraft:porkchop"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:dongpo_pork",
+    "count": 1
+  }
+}

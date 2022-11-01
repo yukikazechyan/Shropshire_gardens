@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "BCA",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "B": {
+      "item": "shropshire:plaster"
+    },
+    "C": {
+      "item": "shropshire:soy_milk"
+    },
+    "D": {
+      "item": "minecraft:bowl"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:sweet_tofu_brain",
+    "count": 1
+  }
+}

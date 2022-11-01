@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AB",
+    "CDE",
+    "FG"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "shropshire:oil"
+    },
+    "C": {
+      "item": "minecraft:sugar"
+    },
+    "D": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "E": {
+      "item": "shropshire:cherry"
+    },
+    "F": {
+      "item": "minecraft:egg"
+    },
+    "G": {
+      "item": "shropshire:flour"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:black_forest_cake",
+    "count": 1
+  }
+}

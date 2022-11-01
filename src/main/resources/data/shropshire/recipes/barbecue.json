@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DE ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:bacon"
+    },
+    "B": {
+      "item": "shropshire:sausage"
+    },
+    "C": {
+      "item": "minecraft:cooked_beef"
+    },
+    "D": {
+      "item": "shropshire:tomato"
+    },
+    "E": {
+      "item": "shropshire:lettuce"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:barbecue",
+    "count": 1
+  }
+}

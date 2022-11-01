@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "G H"
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:flour"
+    },
+    "B": {
+      "item": "minecraft:egg"
+    },
+    "C": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "D": {
+      "item": "shropshire:cooked_beef"
+    },
+    "E": {
+      "item": "minecraft:mutton"
+    },
+    "F": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "G": {
+      "item": "shropshire:onion"
+    },
+    "H": {
+      "item": "shropshire:flour"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:russian_dumpling",
+    "count": 1
+  }
+}

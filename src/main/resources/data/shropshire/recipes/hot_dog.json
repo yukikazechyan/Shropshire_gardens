@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:bread"
+    },
+    "B": {
+      "item": "shropshire:sausage"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:hot_dog",
+    "count": 1
+  }
+}

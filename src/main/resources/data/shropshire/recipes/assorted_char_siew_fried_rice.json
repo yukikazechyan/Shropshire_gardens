@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "CD ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:porkchop"
+    },
+    "B": {
+      "item": "shropshire:carrot"
+    },
+    "C": {
+      "item": "shropshire:rice"
+    },
+    "D": {
+      "item": "shropshire:oil"
+    }
+  },
+  "result": {
+    "item": "shropshire:assorted_char_siew_fried_rice",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "D  ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:flour"
+    },
+    "B": {
+      "item": "shropshire:blaze_powder"
+    },
+    "C": {
+      "item": "minecraft:sugar"
+    },
+    "D": {
+      "item": "shropshire:salt"
+    },
+  },
+  "result": {
+    "item": "shropshire:spicy_strips",
+    "count": 1
+  }
+}

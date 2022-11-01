@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:salmon"
+    },
+    "B": {
+      "item": "minecraft:iron_nugget"
+    },
+    "C": {
+      "item": "minecraft:brown_mushroom"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:canned_herring",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    " DE",
+    "F  "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:black_tea"
+    },
+    "B": {
+      "item": "shropshire:flour"
+    },
+    "C": {
+      "item": "minecraft:egg"
+    },
+    "D": {
+      "item": "shropshire:sugar"
+    },
+    "E": {
+      "item": "shropshire:butter"
+    },
+    "F": {
+      "item": "minecraft:milk_bucket"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:black_tea_scones",
+    "count": 1
+  }
+}

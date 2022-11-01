@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:salmon"
+    },
+    "B": {
+      "item": "shropshire:flour"
+    },
+    "C": {
+      "item": "shropshire:dried_kelp"
+    },
+    "D": {
+      "item": "shropshire:salt"
+    },
+    "E": {
+      "item": "minecraft:bowl"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:tempura_soba",
+    "count": 1
+  }
+}

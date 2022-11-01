@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:onion"
+    },
+    "B": {
+      "item": "shropshire:garlic"
+    },
+    "C": {
+      "item": "shropshire:tomato"
+    },
+    "D": {
+      "item": "minecraft:salmon"
+    },
+    "E": {
+      "item": "shropshire:bowl"
+    },
+    "F": {
+      "item": "shropshire:oil"
+    }
+  },
+  "result": {
+    "item": "shropshire:marseille_fish_soup",
+    "count": 1
+  }
+}

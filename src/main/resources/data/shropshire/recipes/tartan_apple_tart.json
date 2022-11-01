@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABB",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:flour"
+    },
+    "B": {
+      "item": "minecraft:apple"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:tartan_apple_tart",
+    "count": 1
+  }
+}

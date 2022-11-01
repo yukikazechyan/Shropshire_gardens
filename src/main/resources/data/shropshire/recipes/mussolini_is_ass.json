@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:porkchop"
+    },
+    "B": {
+      "item": "shropshire:salt"
+    },
+    "C": {
+      "item": "minecraft:iron_nugget"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:mussolini_is_ass",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "CDE",
+    "A  "
+  ],
+  "key": {
+    "A": {
+      "item": "shropshire:toast"
+    },
+    "B": {
+      "item": "shropshire:bacon"
+    },
+    "C": {
+      "item": "shropshire:egg"
+    },
+    "D": {
+      "item": "shropshire:butter"
+    },
+    "E": {
+      "item": "shropshire:salt"
+    }
+
+  },
+  "result": {
+    "item": "shropshire:egg_benedict",
+    "count": 1
+  }
+}
